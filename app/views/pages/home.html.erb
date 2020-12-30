@@ -1,4 +1,17 @@
-<h1>Home page</h1>
+<div class="bg-light p-5 rounded-lg m-3 text-center text-white" id="home-container">
+  <h1 class="display-4">Alpha Blog</h1>
+  <p class="lead">Welcome to the AlphaBlog! A place where you can post stuff!</p>
+  <hr class="my-4">
+  <p>Head on down to the articles listing page and post away.</p>
+  <a class="btn btn-success btn-lg" href="#" role="button">Sign up!</a>
+</div>
 
-<%= link_to 'Articles listing', articles_path %> |
-<%= link_to 'About page', about_path %>
+<div id="page-content">
+
+</div>
+
+<footer id="sticky-footer" class="footer mt-auto py-3 bg-dark text-white">
+  <div class="container text-center">
+    <small>Copyright &copy; <%= link_to "Jesus Alatorre", "https://alatorre.dev", class: "text-white" %></small>
+  </div>
+</footer>
